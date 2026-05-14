@@ -42,7 +42,7 @@ Set your Instagram credentials using any of these methods (highest priority firs
 2. **Environment variables** — `export IG_USERNAME=... IG_PASSWORD=...`
 3. **config.json** — create a `config.json` in the project root:
    ```json
-   { "username": "your_username", "password": "your_password" }
+   { "instagram_username": "your_username", "instagram_password": "your_password" }
    ```
 4. **Session file** — after the first successful login, a `session.json` is saved automatically and reused for future logins
 

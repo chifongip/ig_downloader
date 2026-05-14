@@ -17,7 +17,7 @@ from instagrapi.types import Media
 logger = logging.getLogger(__name__)
 
 # Session file path for persistent login
-SESSION_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "session.json")
+SESSION_FILE = Path(__file__).parent.parent.parent / "session.json"
 DOWNLOADS_DIR = Path(__file__).parent.parent.parent / "downloads"
 CONFIG_FILE = Path(__file__).parent.parent.parent / "config.json"
 
