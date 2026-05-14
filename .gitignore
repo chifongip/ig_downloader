@@ -1,0 +1,7 @@
+config.json
+session.json
+.env
+.vscode/
+.claude/
+**/__pycache__/
+downloads/
